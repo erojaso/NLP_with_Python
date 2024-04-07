@@ -85,15 +85,15 @@ A continuación se muestran los pasos a seguir para crear el entorno virtual con
 
 * Pasos para la creación de un Virtualenv con conda e instalación de las librerías necesarias
 
-1.- Creación del entorno virtual "*Python37_NLP*" con un python 3.7
+1.- Creación del entorno virtual "*nlp_env*" con un python 3.11.7
 ```
->> conda create -n Python37_NLP python=3.7 anaconda
+>> conda create -n nlp_env python=3.11.7 anaconda
 ```
 
 2.- Activar el entorno virtual
 
 ```
->> conda activate Python37_NLP
+>> conda activate nlp_env
 ```
 
 3.- Instalar librerías especificadas en el fichero requirements.txt:
@@ -122,7 +122,7 @@ A continuación se muestran algunas acciones extra:
 ```
 >> conda deactivate
 ```
-3.- Eliminar entorno virtual (llamado "Python37_NLP")
+3.- Eliminar entorno virtual (llamado "nlp_env")
 ```
->> conda remove -n Python37_NLP -all
+>> conda remove -n nlp_env -all
 ```
